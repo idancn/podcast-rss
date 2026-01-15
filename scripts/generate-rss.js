@@ -17,7 +17,7 @@ const CONFIG = {
     title: 'My Podcast',
     description: 'A podcast hosted on GitHub Pages',
     author: 'Your Name',
-    email: 'your-email@example.com',
+    email: 'idan.cn@gmail.com',
     language: 'en',
     categories: ['Technology'], // iTunes categories
     explicit: false,

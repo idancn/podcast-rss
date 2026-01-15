@@ -4,21 +4,21 @@
     <description><![CDATA[A podcast hosted on GitHub Pages]]></description>
     <link>https://idancn.github.io/podcast-rss</link>
     <generator>Podcast for Node</generator>
-    <lastBuildDate>Thu, 15 Jan 2026 16:19:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 16:23:12 GMT</lastBuildDate>
     <atom:link href="https://idancn.github.io/podcast-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[Your Name]]></author>
     <pubDate>Thu, 15 Jan 2026 16:12:05 GMT</pubDate>
     <copyright><![CDATA[2026 Your Name]]></copyright>
     <language><![CDATA[en]]></language>
-    <managingEditor><![CDATA[your-email@example.com]]></managingEditor>
-    <webMaster><![CDATA[your-email@example.com]]></webMaster>
+    <managingEditor><![CDATA[idan.cn@gmail.com]]></managingEditor>
+    <webMaster><![CDATA[idan.cn@gmail.com]]></webMaster>
     <ttl>60</ttl>
     <itunes:author>Your Name</itunes:author>
     <itunes:subtitle>A podcast hosted on GitHub Pages</itunes:subtitle>
     <itunes:summary>A podcast hosted on GitHub Pages</itunes:summary>
     <itunes:owner>
       <itunes:name>Your Name</itunes:name>
-      <itunes:email>your-email@example.com</itunes:email>
+      <itunes:email>idan.cn@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
