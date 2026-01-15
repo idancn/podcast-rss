@@ -1,0 +1,22 @@
+{
+  "name": "podcast-rss-generator",
+  "version": "1.0.0",
+  "description": "Podcast RSS Feed Generator for GitHub Pages",
+  "main": "scripts/generate-rss.js",
+  "scripts": {
+    "build-rss": "node scripts/generate-rss.js"
+  },
+  "keywords": [
+    "podcast",
+    "rss",
+    "feed",
+    "github-pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "podcast": "^2.0.1"
+  }
+}
+

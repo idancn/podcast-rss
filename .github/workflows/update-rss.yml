@@ -1,0 +1,54 @@
+name: Update Podcast RSS Feed
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'episodes/**'
+      - 'scripts/generate-rss.js'
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Generate RSS feed
+        run: npm run build-rss
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet public/rss.xml; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push RSS feed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/rss.xml
+          git commit -m "🎙️ Update podcast RSS feed [skip ci]"
+          git push
+
