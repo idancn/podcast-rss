@@ -4,10 +4,10 @@
     <description><![CDATA[A podcast hosted on GitHub Pages]]></description>
     <link>https://idancn.github.io/podcast-rss</link>
     <generator>Podcast for Node</generator>
-    <lastBuildDate>Thu, 15 Jan 2026 16:23:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 20:26:33 GMT</lastBuildDate>
     <atom:link href="https://idancn.github.io/podcast-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[Your Name]]></author>
-    <pubDate>Thu, 15 Jan 2026 16:12:05 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 20:12:34 GMT</pubDate>
     <copyright><![CDATA[2026 Your Name]]></copyright>
     <language><![CDATA[en]]></language>
     <managingEditor><![CDATA[idan.cn@gmail.com]]></managingEditor>
@@ -23,6 +23,71 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
     <itunes:image href="https://idancn.github.io/podcast-rss/artwork.jpg"/>
+    <item>
+      <title><![CDATA[צוואר הבקבוק של AI זיכרון ותקשורת]]></title>
+      <description><![CDATA[Episode: צוואר הבקבוק של AI זיכרון ותקשורת]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/%D7%A6%D7%95%D7%95%D7%90%D7%A8_%D7%94%D7%91%D7%A7%D7%91%D7%95%D7%A7_%D7%A9%D7%9C_AI_%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%95%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/%D7%A6%D7%95%D7%95%D7%90%D7%A8_%D7%94%D7%91%D7%A7%D7%91%D7%95%D7%A7_%D7%A9%D7%9C_AI_%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%95%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 20:12:34 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/%D7%A6%D7%95%D7%95%D7%90%D7%A8_%D7%94%D7%91%D7%A7%D7%91%D7%95%D7%A7_%D7%A9%D7%9C_AI_%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%95%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA.m4a" length="27369539" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>צוואר הבקבוק של AI זיכרון ותקשורת</itunes:subtitle>
+      <itunes:summary>Episode: צוואר הבקבוק של AI זיכרון ותקשורת</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[מנהל צוות בינה מלאכותית הקים חברה בשבוע]]></title>
+      <description><![CDATA[Episode: מנהל צוות בינה מלאכותית הקים חברה בשבוע]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/%D7%9E%D7%A0%D7%94%D7%9C_%D7%A6%D7%95%D7%95%D7%AA_%D7%91%D7%99%D7%A0%D7%94_%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA_%D7%94%D7%A7%D7%99%D7%9D_%D7%97%D7%91%D7%A8%D7%94_%D7%91%D7%A9%D7%91%D7%95%D7%A2.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/%D7%9E%D7%A0%D7%94%D7%9C_%D7%A6%D7%95%D7%95%D7%AA_%D7%91%D7%99%D7%A0%D7%94_%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA_%D7%94%D7%A7%D7%99%D7%9D_%D7%97%D7%91%D7%A8%D7%94_%D7%91%D7%A9%D7%91%D7%95%D7%A2.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 20:12:34 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/%D7%9E%D7%A0%D7%94%D7%9C_%D7%A6%D7%95%D7%95%D7%AA_%D7%91%D7%99%D7%A0%D7%94_%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA_%D7%94%D7%A7%D7%99%D7%9D_%D7%97%D7%91%D7%A8%D7%94_%D7%91%D7%A9%D7%91%D7%95%D7%A2.m4a" length="26829945" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>מנהל צוות בינה מלאכותית הקים חברה בשבוע</itunes:subtitle>
+      <itunes:summary>Episode: מנהל צוות בינה מלאכותית הקים חברה בשבוע</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[SALT הזרקת פרומפט ומחסום המידע האסימטרי]]></title>
+      <description><![CDATA[Episode: SALT הזרקת פרומפט ומחסום המידע האסימטרי]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/SALT_%D7%94%D7%96%D7%A8%D7%A7%D7%AA_%D7%A4%D7%A8%D7%95%D7%9E%D7%A4%D7%98_%D7%95%D7%9E%D7%97%D7%A1%D7%95%D7%9D_%D7%94%D7%9E%D7%99%D7%93%D7%A2_%D7%94%D7%90%D7%A1%D7%99%D7%9E%D7%98%D7%A8%D7%99.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/SALT_%D7%94%D7%96%D7%A8%D7%A7%D7%AA_%D7%A4%D7%A8%D7%95%D7%9E%D7%A4%D7%98_%D7%95%D7%9E%D7%97%D7%A1%D7%95%D7%9D_%D7%94%D7%9E%D7%99%D7%93%D7%A2_%D7%94%D7%90%D7%A1%D7%99%D7%9E%D7%98%D7%A8%D7%99.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 20:12:34 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/SALT_%D7%94%D7%96%D7%A8%D7%A7%D7%AA_%D7%A4%D7%A8%D7%95%D7%9E%D7%A4%D7%98_%D7%95%D7%9E%D7%97%D7%A1%D7%95%D7%9D_%D7%94%D7%9E%D7%99%D7%93%D7%A2_%D7%94%D7%90%D7%A1%D7%99%D7%9E%D7%98%D7%A8%D7%99.m4a" length="19939856" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>SALT הזרקת פרומפט ומחסום המידע האסימטרי</itunes:subtitle>
+      <itunes:summary>Episode: SALT הזרקת פרומפט ומחסום המידע האסימטרי</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[צוואר בקבוק הקשב מינוף בעזרת הפשטה]]></title>
+      <description><![CDATA[Episode: צוואר בקבוק הקשב מינוף בעזרת הפשטה]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/%D7%A6%D7%95%D7%95%D7%90%D7%A8_%D7%91%D7%A7%D7%91%D7%95%D7%A7_%D7%94%D7%A7%D7%A9%D7%91_%D7%9E%D7%99%D7%A0%D7%95%D7%A3_%D7%91%D7%A2%D7%96%D7%A8%D7%AA_%D7%94%D7%A4%D7%A9%D7%98%D7%94.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/%D7%A6%D7%95%D7%95%D7%90%D7%A8_%D7%91%D7%A7%D7%91%D7%95%D7%A7_%D7%94%D7%A7%D7%A9%D7%91_%D7%9E%D7%99%D7%A0%D7%95%D7%A3_%D7%91%D7%A2%D7%96%D7%A8%D7%AA_%D7%94%D7%A4%D7%A9%D7%98%D7%94.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 20:12:33 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/%D7%A6%D7%95%D7%95%D7%90%D7%A8_%D7%91%D7%A7%D7%91%D7%95%D7%A7_%D7%94%D7%A7%D7%A9%D7%91_%D7%9E%D7%99%D7%A0%D7%95%D7%A3_%D7%91%D7%A2%D7%96%D7%A8%D7%AA_%D7%94%D7%A4%D7%A9%D7%98%D7%94.m4a" length="30125545" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>צוואר בקבוק הקשב מינוף בעזרת הפשטה</itunes:subtitle>
+      <itunes:summary>Episode: צוואר בקבוק הקשב מינוף בעזרת הפשטה</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[שינוי זהות לא כוח רצון]]></title>
+      <description><![CDATA[Episode: שינוי זהות לא כוח רצון]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%96%D7%94%D7%95%D7%AA_%D7%9C%D7%90_%D7%9B%D7%95%D7%97_%D7%A8%D7%A6%D7%95%D7%9F.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%96%D7%94%D7%95%D7%AA_%D7%9C%D7%90_%D7%9B%D7%95%D7%97_%D7%A8%D7%A6%D7%95%D7%9F.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 20:12:33 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%96%D7%94%D7%95%D7%AA_%D7%9C%D7%90_%D7%9B%D7%95%D7%97_%D7%A8%D7%A6%D7%95%D7%9F.m4a" length="27950104" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>שינוי זהות לא כוח רצון</itunes:subtitle>
+      <itunes:summary>Episode: שינוי זהות לא כוח רצון</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title><![CDATA[יומן תכנון מעניק ל AI זיכרון מושלם]]></title>
       <description><![CDATA[Episode: יומן תכנון מעניק ל AI זיכרון מושלם]]></description>
