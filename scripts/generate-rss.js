@@ -29,8 +29,8 @@ const BASE_URL = `https://${CONFIG.githubUsername}.github.io/${CONFIG.repoName}`
 
 // Directory paths
 const EPISODES_DIR = path.join(__dirname, '..', 'episodes');
-const PUBLIC_DIR = path.join(__dirname, '..', 'public');
-const OUTPUT_FILE = path.join(PUBLIC_DIR, 'rss.xml');
+const ROOT_DIR = path.join(__dirname, '..');
+const OUTPUT_FILE = path.join(ROOT_DIR, 'rss.xml');
 
 /**
  * Convert filename to a readable episode title
@@ -171,8 +171,8 @@ async function generateRSS() {
     });
   });
   
-  // Ensure public directory exists
-  await fs.ensureDir(PUBLIC_DIR);
+  // Ensure root directory exists (should always exist)
+  await fs.ensureDir(ROOT_DIR);
   
   // Generate and write RSS XML
   const xml = feed.buildXml('  ');

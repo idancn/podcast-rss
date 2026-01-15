@@ -37,7 +37,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet public/rss.xml; then
+          if git diff --quiet rss.xml; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -48,7 +48,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add public/rss.xml
+          git add rss.xml
           git commit -m "🎙️ Update podcast RSS feed [skip ci]"
           git push
 
