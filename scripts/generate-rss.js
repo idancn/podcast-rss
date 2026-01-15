@@ -39,9 +39,9 @@ const OUTPUT_FILE = path.join(PUBLIC_DIR, 'rss.xml');
  */
 function filenameToTitle(filename) {
   return filename
-    .replace(/\.mp3$/i, '')           // Remove .mp3 extension
-    .replace(/[-_]/g, ' ')            // Replace dashes/underscores with spaces
-    .replace(/\s+/g, ' ')             // Normalize multiple spaces
+    .replace(/\.(mp3|m4a|mp4|aac)$/i, '')  // Remove audio extension
+    .replace(/[-_]/g, ' ')                  // Replace dashes/underscores with spaces
+    .replace(/\s+/g, ' ')                   // Normalize multiple spaces
     .trim();
 }
 
@@ -67,12 +67,24 @@ async function scanEpisodes() {
   await fs.ensureDir(EPISODES_DIR);
   
   const files = await fs.readdir(EPISODES_DIR);
-  const mp3Files = files.filter(file => file.toLowerCase().endsWith('.mp3'));
+  const audioExtensions = ['.mp3', '.m4a', '.mp4', '.aac'];
+  const audioFiles = files.filter(file => 
+    audioExtensions.some(ext => file.toLowerCase().endsWith(ext))
+  );
   
   const episodes = await Promise.all(
-    mp3Files.map(async (filename) => {
+    audioFiles.map(async (filename) => {
       const filepath = path.join(EPISODES_DIR, filename);
       const stats = await getFileStats(filepath);
+      const ext = path.extname(filename).toLowerCase();
+      
+      // Determine MIME type based on extension
+      const mimeTypes = {
+        '.mp3': 'audio/mpeg',
+        '.m4a': 'audio/x-m4a',
+        '.mp4': 'audio/mp4',
+        '.aac': 'audio/aac',
+      };
       
       return {
         filename,
@@ -80,6 +92,7 @@ async function scanEpisodes() {
         url: `${BASE_URL}/episodes/${encodeURIComponent(filename)}`,
         size: stats.size,
         pubDate: stats.mtime,
+        mimeType: mimeTypes[ext] || 'audio/mpeg',
       };
     })
   );
@@ -100,8 +113,8 @@ async function generateRSS() {
   const episodes = await scanEpisodes();
   
   if (episodes.length === 0) {
-    console.log('⚠️  No MP3 files found in /episodes folder.');
-    console.log('   Add some .mp3 files and run this script again.\n');
+    console.log('⚠️  No audio files found in /episodes folder.');
+    console.log('   Add some .mp3/.m4a files and run this script again.\n');
   } else {
     console.log(`✅ Found ${episodes.length} episode(s)\n`);
   }
@@ -148,7 +161,7 @@ async function generateRSS() {
       enclosure: {
         url: episode.url,
         size: episode.size,
-        type: 'audio/mpeg',
+        type: episode.mimeType,
       },
       itunesAuthor: CONFIG.podcast.author,
       itunesExplicit: CONFIG.podcast.explicit,

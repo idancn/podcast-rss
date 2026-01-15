@@ -4,10 +4,10 @@
     <description><![CDATA[A podcast hosted on GitHub Pages]]></description>
     <link>https://idancn.github.io/podcast-rss</link>
     <generator>Podcast for Node</generator>
-    <lastBuildDate>Thu, 15 Jan 2026 16:06:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 16:13:22 GMT</lastBuildDate>
     <atom:link href="https://idancn.github.io/podcast-rss/rss.xml" rel="self" type="application/rss+xml"/>
     <author><![CDATA[Your Name]]></author>
-    <pubDate>Thu, 15 Jan 2026 16:06:44 GMT</pubDate>
+    <pubDate>Thu, 15 Jan 2026 16:12:05 GMT</pubDate>
     <copyright><![CDATA[2026 Your Name]]></copyright>
     <language><![CDATA[en]]></language>
     <managingEditor><![CDATA[your-email@example.com]]></managingEditor>
@@ -23,5 +23,31 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
     <itunes:image href="https://idancn.github.io/podcast-rss/artwork.jpg"/>
+    <item>
+      <title><![CDATA[יומן תכנון מעניק ל AI זיכרון מושלם]]></title>
+      <description><![CDATA[Episode: יומן תכנון מעניק ל AI זיכרון מושלם]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/%D7%99%D7%95%D7%9E%D7%9F_%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%9E%D7%A2%D7%A0%D7%99%D7%A7_%D7%9C-AI_%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%9E%D7%95%D7%A9%D7%9C%D7%9D.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/%D7%99%D7%95%D7%9E%D7%9F_%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%9E%D7%A2%D7%A0%D7%99%D7%A7_%D7%9C-AI_%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%9E%D7%95%D7%A9%D7%9C%D7%9D.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 16:12:05 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/%D7%99%D7%95%D7%9E%D7%9F_%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%9E%D7%A2%D7%A0%D7%99%D7%A7_%D7%9C-AI_%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_%D7%9E%D7%95%D7%A9%D7%9C%D7%9D.m4a" length="31739729" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>יומן תכנון מעניק ל AI זיכרון מושלם</itunes:subtitle>
+      <itunes:summary>Episode: יומן תכנון מעניק ל AI זיכרון מושלם</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Skills סוכני משנה ומחברי MCP בקלוד קוד]]></title>
+      <description><![CDATA[Episode: Skills סוכני משנה ומחברי MCP בקלוד קוד]]></description>
+      <link>https://idancn.github.io/podcast-rss/episodes/Skills_%D7%A1%D7%95%D7%9B%D7%A0%D7%99-%D7%9E%D7%A9%D7%A0%D7%94_%D7%95%D7%9E%D7%97%D7%91%D7%A8%D7%99_MCP_%D7%91%D7%A7%D7%9C%D7%95%D7%93_%D7%A7%D7%95%D7%93.m4a</link>
+      <guid isPermaLink="false">https://idancn.github.io/podcast-rss/episodes/Skills_%D7%A1%D7%95%D7%9B%D7%A0%D7%99-%D7%9E%D7%A9%D7%A0%D7%94_%D7%95%D7%9E%D7%97%D7%91%D7%A8%D7%99_MCP_%D7%91%D7%A7%D7%9C%D7%95%D7%93_%D7%A7%D7%95%D7%93.m4a</guid>
+      <dc:creator><![CDATA[Your Name]]></dc:creator>
+      <pubDate>Thu, 15 Jan 2026 15:58:15 GMT</pubDate>
+      <enclosure url="https://idancn.github.io/podcast-rss/episodes/Skills_%D7%A1%D7%95%D7%9B%D7%A0%D7%99-%D7%9E%D7%A9%D7%A0%D7%94_%D7%95%D7%9E%D7%97%D7%91%D7%A8%D7%99_MCP_%D7%91%D7%A7%D7%9C%D7%95%D7%93_%D7%A7%D7%95%D7%93.m4a" length="30917262" type="audio/x-m4a"/>
+      <itunes:author>Your Name</itunes:author>
+      <itunes:subtitle>Skills סוכני משנה ומחברי MCP בקלוד קוד</itunes:subtitle>
+      <itunes:summary>Episode: Skills סוכני משנה ומחברי MCP בקלוד קוד</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
